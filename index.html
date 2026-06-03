@@ -1206,5 +1206,12 @@
             resetLabels([layer_InnerHallfrischTreeHuggerPMAlt_12,layer_InnerHallfrischPM_14,layer_InnerNevanensAM_16,layer_MarbleHeadBTR_18,layer_MarbleHeadSheepRanch_20,layer_MarbleHead27_22,layer_MarbleHeadNevanens_24]);
         });
         </script>        
-    </body>
+    <script>
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", function () {
+      navigator.serviceWorker.register("./sw.js");
+    });
+  }
+</script>
+	</body>
 </html>
